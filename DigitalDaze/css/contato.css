@@ -1,0 +1,44 @@
+/* Estilo para a linha de subtitulo */
+.subtitle-underline {
+    width: 86px;
+    height: 7px;
+    background: #3A0D72;
+    border-radius: 9999px;
+    margin: 8px auto 0 auto;
+}
+
+/* Estilo para o formulário */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #8a04ff;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #3A0D72;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+button[type="submit"]:hover {
+    background-color: #8a04ff;
+}
+

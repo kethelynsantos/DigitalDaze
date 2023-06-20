@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagens/logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="icon" href="logo.png" />
+    <title>DigitalDaze</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <!-- modelos de note na lista e no carrinho -->
+    <div class="models">
+
+        <!-- note na lista -->
+        <div class="note-item">
+            <a href="">
+                <div class="note-item--img"><img src="" /></div>
+                <div class="note-item--name">--</div>
+                <p class="rate">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                <div class="note-item--price"><span>$ --</span></div>
+                <div class="note-item--desc">--</div>
+                <div class="note-item--add">Adicionar ao carrinho</div>
+            </a>
+        </div>
+
+        <!-- note no carrinho -->
+        <div class="cart--item">
+            <img src="" />
+            <div class="cart--item-nome">--</div>
+            <div class="cart--item--qtarea">
+                <button class="cart--item-qtmenos">-</button>
+                <div class="cart--item--qt">1</div>
+                <button class="cart--item-qtmais">+</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- /models -->
+
+    <!-- .menu-openner aparecera no modo mobile -->
+    <header>
+        <div id="nav" class="navbar show-menu">
+            <div class="header-inner-content">
+                <h1 class="logo"><span>Digital</span>Daze</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="index.html#contato">Contato</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-icon-container">
+                    <img src="imagens/cart.png" />
+                    <div class="menu-openner"><span>0</span></div>
+                    <img src="imagens/menu.png" class="menu-button"/> 
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- /menu-openner -->
+
+    <!-- conteudo principal -->
+    <main>
+        
+        <div id="produtos"class="page-inner-content">
+            <h3 class="section-title">Todos os Notebooks</h3>
+            <div class="subtitle-underline"></div>
+            <div class="cols cols-4">
+                <div class="note-area"></div>
+            </div>
+        </div>
+    </main>
+    <!-- /conteudo principal -->
+
+    <!-- aside do carrinho -->
+    <aside>
+        <div class="cart--area">
+            <div class="menu-closer">❌</div>
+            <h1>Suas notes</h1>
+            <div class="cart"></div>
+            <div class="cart--details">
+                <div class="cart--totalitem subtotal">
+                    <span>Subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem desconto">
+                    <span>Desconto</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem total big">
+                    <span>Total</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--finalizar">Finalizar a compra</div>
+            </div>
+        </div>
+    </aside>
+    <!-- /aside do carrinho -->
+
+    <!-- janela modal .noteWindowArea -->
+    <div class="noteWindowArea">
+        <div class="noteWindowBody">
+            <div class="noteInfo--cancelMobileButton">Voltar</div>
+            <div class="noteBig">
+                <img src="" />
+            </div>
+            <div class="noteInfo">
+                <h1>--</h1>
+                <div class="noteInfo--desc">--</div>
+                <div class="noteInfo--sizearea">
+                    <div class="noteInfo--sector">Capacidade</div>
+                    <div class="noteInfo--sizes">
+                        <div data-key="P" class="noteInfo--size">Memória <span>--</span></div>
+                        <div data-key="M" class="noteInfo--size">Memória <span>--</span></div>
+                        <div data-key="G" class="noteInfo--size selected">Memória <span>--</span></div>
+                    </div>
+                </div>
+                <div class="noteInfo--pricearea">
+                    <div class="noteInfo--sector">Preço</div>
+                    <div class="noteInfo--price">
+                        <div class="noteInfo--actualPrice">R$ --</div>
+                        <div class="noteInfo--qtarea">
+                            <button class="noteInfo--qtmenos">-</button>
+                            <div class="noteInfo--qt">1</div>
+                            <button class="noteInfo--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="noteInfo--addButton"><a href="#nav">Adicionar ao carrinho</a></div>
+                <div class="noteInfo--cancelButton">Cancelar</div>
+            </div>
+        </div>
+    </div>
+    <!-- /janela modal .noteWindowArea -->
+
+    <script src="js/notes.js"></script>
+    <script src="js/carrinho.js"></script>
+    <script src="js/menu.js"></script> 
+</body>
+</html>

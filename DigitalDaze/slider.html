@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
+    <link rel="icon" href="imagens/logo.png" /> 
+    <title>Slider</title> 
+    <link rel="stylesheet" href="css/slider.css" /> 
+</head>
+<body>
+    <div class="container">
+        <!-- Inputs para controle do slider -->
+        <input type="radio" name="slider" id="item-1" checked>
+        <input type="radio" name="slider" id="item-2">
+        <input type="radio" name="slider" id="item-3">
+      
+        <div class="cards">
+          <!-- Card 1 -->
+          <label class="card" for="item-1" id="note-1">
+            <img src="https://t.ctcdn.com.br/qnqZWQijID2a8ss6iZEq_ruDGAE=/1024x0/smart/filters:format(webp)/i605381.png" alt="note">
+          </label>
+          <!-- Card 2 -->
+          <label class="card" for="item-2" id="note-2">
+            <img src="https://www.tuexperto.com/wp-content/uploads/2019/09/lanzamiento-asus-zenbook-pro-duo-01.jpg" alt="note">
+          </label>
+          <!-- Card 3 -->
+          <label class="card" for="item-3" id="note-3">
+            <img src="https://www.xiaomihaus.de/wp-content/uploads/2022/07/kaufen-xiaomi-book-pro-14-2022-deutschland-2.png" alt="note">
+          </label>
+        </div>
+      
+        <div class="player">
+          <div class="upper-part">
+            <!-- Área de informações -->
+            <div class="info-area" id="test">
+              <!-- Informações do card 1 -->
+              <label class="note-info" id="note-info-1">
+                <div class="title">Design premium</div>
+              </label>
+              <!-- Informações do card 2 -->
+              <label class="note-info" id="note-info-2">
+                <div class="title">Alta produtividade</div>
+              </label>
+              <!-- Informações do card 3 -->
+              <label class="note-info" id="note-info-3">
+                <div class="title">Experiência imersiva</div>
+              </label>
+            </div>
+          </div>
+          <!-- Barra de progresso -->
+          <div class="progress-bar">
+            <span class="progress"></span>
+          </div>
+        </div>
+    </div>
+    
+    <div class="button-all">
+      <!-- Botão de retorno à página inicial -->
+      <a href="index.html">
+        <i class="fas fa-undo"></i>
+      </a>
+    </div>
+</body>
+</html>
